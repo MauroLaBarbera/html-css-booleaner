@@ -4,9 +4,8 @@ body {
 
 .head {
   height: 100px;
-  width: 100%;
-  background-image: url("/img/pattern.png");
-  background-size: auto;
+  width: 100;
+  background-image: url("/img/pattern.png);
   background-color: rgb(14, 150, 241);
 }
 
