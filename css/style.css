@@ -5,14 +5,16 @@ body {
 .head {
   height: 100px;
   width: 100;
-  background-image: url("/img/pattern.png);
+  background-image: url("/img/pattern.png");
   background-color: rgb(14, 150, 241);
+  background-position: bottom;
+  position: relative;
 }
 
 .head img {
+  position: absolute;
   width: 150px;
-  padding: auto;
-  margin: 50px auto;
+  margin: 50px;
 }
 
 .conteiner {
@@ -22,4 +24,46 @@ body {
 
 .text {
   color: gray;
+}
+
+.evidence {
+  background-color: yellow;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.th {
+  color: white;
+  background-color: rgb(14, 150, 241);
+}
+
+td,
+th {
+  width: 33%;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: aqua;
+}
+
+.interest {
+  color: gray;
+}
+
+.imgfoot {
+  position: relative;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 18px;
+  color: white;
 }
