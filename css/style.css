@@ -1,0 +1,26 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.head {
+  height: 100px;
+  width: 100%;
+  background-image: url("/img/pattern.png");
+  background-size: auto;
+  background-color: rgb(14, 150, 241);
+}
+
+.head img {
+  width: 150px;
+  padding: auto;
+  margin: 50px auto;
+}
+
+.conteiner {
+  width: 70%;
+  margin: 0px auto;
+}
+
+.text {
+  color: gray;
+}
