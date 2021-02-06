@@ -1,24 +1,26 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif; /*Font*/
+}
+
+/* Header*/
+header {
+  background-image: url(../img/pattern.png);
+  background-color: rgb(14, 150, 241);
+  background-size: 18%;
 }
 
 .head {
-  height: 100px;
-  width: 100;
-  background-image: url("/img/pattern.png");
-  background-color: rgb(14, 150, 241);
-  background-position: bottom;
-  position: relative;
+  width: 1015px;
+  margin: 0 auto;
 }
 
 .head img {
-  position: absolute;
-  width: 150px;
-  margin: 50px;
+  width: 200px;
+  margin-top: 50px;
 }
 
 .conteiner {
-  width: 70%;
+  width: 1015px;
   margin: 0px auto;
 }
 
@@ -26,13 +28,18 @@ body {
   color: gray;
 }
 
+/* Parte evidenziata*/
 .evidence {
   background-color: yellow;
 }
 
+ul {
+  padding-left: 20px; /*Allineamento lista*/
+}
+
 table {
   font-family: arial, sans-serif;
-  border-collapse: collapse;
+  border-collapse: collapse; /*No bordi*/
   width: 100%;
 }
 
@@ -41,6 +48,7 @@ table {
   background-color: rgb(14, 150, 241);
 }
 
+/*Suddivisione tabella*/
 td,
 th {
   width: 33%;
@@ -52,12 +60,15 @@ tr:nth-child(even) {
   background-color: aqua;
 }
 
+/*Interessi*/
 .interest {
+  padding: 10px;
   color: gray;
 }
 
 .imgfoot {
   position: relative;
+  margin-top: 15px;
 }
 
 .top-left {
