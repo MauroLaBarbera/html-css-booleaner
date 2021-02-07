@@ -24,6 +24,22 @@ header {
   margin: 0px auto;
 }
 
+.tim {
+  widows: 45%;
+  display: inline-block;
+}
+
+.tim img {
+  width: 500px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.textfoto {
+  width: 49.5%;
+  display: inline-block;
+}
+
 .text {
   color: gray;
 }
@@ -69,6 +85,10 @@ tr:nth-child(even) {
 .imgfoot {
   position: relative;
   margin-top: 15px;
+}
+
+.imgfoot img {
+  border-radius: 5px;
 }
 
 .top-left {
