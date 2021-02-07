@@ -5,7 +5,7 @@ body {
 /* Header*/
 header {
   background-image: url(../img/pattern.png);
-  background-color: rgb(14, 150, 241);
+  background-color: green;
   background-size: 18%;
 }
 
@@ -30,7 +30,7 @@ header {
 
 /* Parte evidenziata*/
 .evidence {
-  background-color: yellow;
+  background-color: greenyellow;
 }
 
 ul {
@@ -45,7 +45,7 @@ table {
 
 .th {
   color: white;
-  background-color: rgb(14, 150, 241);
+  background-color: green;
 }
 
 /*Suddivisione tabella*/
@@ -57,7 +57,7 @@ th {
 }
 
 tr:nth-child(even) {
-  background-color: aqua;
+  background-color: greenyellow;
 }
 
 /*Interessi*/
