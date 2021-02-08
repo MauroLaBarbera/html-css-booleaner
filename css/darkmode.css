@@ -2,6 +2,7 @@ body {
     font-family: "Roboto", sans-serif; /*Font*/
     background-color: #212121;
     color: white;
+    margin: 0;
   }
   
   /* Header*/
