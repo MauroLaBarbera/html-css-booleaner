@@ -26,8 +26,15 @@ body {
     margin: 0px auto;
   }
   
+.sezione1 {
+    width: 100%;
+    position: relative;
+}
+  .tim {
+      width: 49%;
+      display: inline-block;
+  }
 
-  
   .textfoto {
     width: 49.5%;
     display: inline-block;
