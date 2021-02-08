@@ -1,0 +1,107 @@
+body {
+    font-family: "Roboto", sans-serif; /*Font*/
+    background-color: #212121;
+    color: white;
+  }
+  
+  /* Header*/
+  header {
+    background-image: url(../img/pattern.png);
+    background-color: #323232;
+    background-size: 18%;
+  }
+  
+  .head {
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  .head img {
+    width: 200px;
+    margin-top: 50px;
+  }
+  
+  .conteiner {
+    width: 70%;
+    margin: 0px auto;
+  }
+  
+  .tim {
+    widows: 45%;
+    display: inline-block;
+  }
+  
+  .tim img {
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+  }
+  
+  .textfoto {
+    width: 49.5%;
+    display: inline-block;
+  }
+  
+  .text {
+    color: gray;
+  }
+  
+  /* Parte evidenziata*/
+  .evidence {
+    background-color: gray;
+  }
+  
+  ul {
+    padding-left: 20px; /*Allineamento lista*/
+  }
+  
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse; /*No bordi*/
+    width: 100%;
+  }
+  
+  .th {
+    color: white;
+    background-color: #323232;
+  }
+  
+  /*Suddivisione tabella*/
+  td,
+  th {
+    width: 33%;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: gray;
+  }
+  
+  /*Interessi*/
+  .interest {
+    padding: 10px;
+    color: gray;
+  }
+  
+  .imgfoot {
+    position: relative;
+    margin-top: 15px;
+  }
+  
+  .imgfoot img {
+    border-radius: 5px;
+  }
+  
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+    color: white;
+  }
+  
+  .newcss {
+    float: right;
+  }
+  
