@@ -26,16 +26,7 @@ body {
     margin: 0px auto;
   }
   
-  .tim {
-    widows: 45%;
-    display: inline-block;
-  }
-  
-  .tim img {
-    width: 500px;
-    height: 300px;
-    border-radius: 10px;
-  }
+
   
   .textfoto {
     width: 49.5%;
