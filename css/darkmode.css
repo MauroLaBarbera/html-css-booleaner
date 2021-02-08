@@ -110,3 +110,6 @@ body {
     float: right;
   }
   
+  .newcss img {
+    width: 5%;
+  }

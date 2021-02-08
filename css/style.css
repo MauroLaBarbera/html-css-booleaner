@@ -103,3 +103,7 @@ tr:nth-child(even) {
 .newcss {
   float: right;
 }
+
+.newcss img {
+  width: 5%;
+}
