@@ -107,9 +107,10 @@ body {
   }
   
   .newcss {
-    float: right;
+    border-top: 1px solid black;
   }
   
   .newcss img {
-    width: 5%;
+    width: 3%;
+    float: right;
   }

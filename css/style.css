@@ -92,6 +92,10 @@ tr:nth-child(even) {
   margin-top: 15px;
 }
 
+.imgfoot img {
+  border-radius: 5px;
+}
+
 .top-left {
   position: absolute;
   top: 8px;
@@ -101,9 +105,10 @@ tr:nth-child(even) {
 }
 
 .newcss {
-  float: right;
+  border-top: 1px solid black;
 }
 
 .newcss img {
-  width: 5%;
+  width: 3%;
+  float: right;
 }
