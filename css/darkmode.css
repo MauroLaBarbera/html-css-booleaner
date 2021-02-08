@@ -35,8 +35,14 @@ body {
       display: inline-block;
   }
 
+  .tim img {
+    width: 100%;
+    height: 450px;
+    border-radius: 15px;
+}
+
   .textfoto {
-    width: 49.5%;
+    width: 49%;
     display: inline-block;
   }
   
